@@ -99,7 +99,7 @@ body {
 .landing .Container .info .image img {
   max-width: 100%;
 }
-@media (max-width: 375px) {
+@media (max-width: 757px) {
   .landing .Container .info {
     display: flex;
     justify-content: center;
@@ -224,6 +224,7 @@ body {
   content: "Ready To Build Your Community?";
   display: flex;
   justify-content: center;
+  padding-top: 20px;
   color: hsl(192, 100%, 9%);
   font-weight: 800;
   font-size: 20px;
@@ -243,11 +244,12 @@ body {
     justify-content: center;
     color: hsl(192, 100%, 9%);
     font-weight: 800;
-    font-size: 20px;
+    font-size: 16px;
     position: absolute;
     width: 95%;
     height: 20%;
     background-color: hsl(193, 100%, 96%);
+    padding-top: 15px;
     top: -135px;
     left: 50%;
     transform: translatex(-50%);
