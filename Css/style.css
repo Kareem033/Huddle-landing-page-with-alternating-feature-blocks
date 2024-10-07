@@ -147,6 +147,11 @@ body {
   border-style: none;
   background-color: hsl(322, 100%, 66%);
   margin-top: 15px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.landing .info .button button:hover {
+  background-color: hsl(208, 11%, 55%);
 }
 /* End landing */
 /* Start about */
